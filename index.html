@@ -177,5 +177,35 @@
       time--;
     }, 1000);
   </script>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trắc nghiệm trực tuyến – Mùa Xuân</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <h1 class="title">🎉 Thi Trắc Nghiệm – Chủ Đề Mùa Xuân 🎉</h1>
+
+        <div id="timer" class="timer">⏳ 60:00</div>
+
+        <div id="question-container"></div>
+
+        <button id="submitBtn" class="submit-btn">Nộp bài</button>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <!-- Âm báo -->
+    <audio id="timeoutSound" src="assets/sounds/timeout.mp3" preload="auto"></audio>
+
+    <!-- JS -->
+    <script src="assets/script.js"></script>
 </body>
 </html>
+
